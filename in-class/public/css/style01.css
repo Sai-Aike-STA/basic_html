@@ -1,0 +1,31 @@
+body {
+    background-color: grey;
+    font-family: sans-serif;
+}
+
+/*h2 {*/
+/*    color: white;*/
+/*    font-family: 'Times New Roman', Times, serif;*/
+/*    font-style: italic;*/
+/*}*/
+
+/*class version of css. rather than global*/
+.myh2 {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+.myh2 ul {
+    font-size: 2rem;
+}
+
+.div1 {
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    color: white;
+    font-size: 2em;
+    margin: 20px;
+    padding: 30px;
+}
