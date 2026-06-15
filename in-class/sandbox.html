@@ -2,10 +2,33 @@
 <html>
 <head>
     <title>My First Page</title>
+    <style>
+        body {
+            background-color: grey;
+            font-family: sans-serif;
+        }
+
+        /*h2 {*/
+        /*    color: white;*/
+        /*    font-family: 'Times New Roman', Times, serif;*/
+        /*    font-style: italic;*/
+        /*}*/
+
+        /*class version of css. rather than global*/
+        .myh2 {
+            color: white;
+            font-family: 'Times New Roman', Times, serif;
+            font-style: italic;
+        }
+
+        .myh2 ol {
+            font-size: 2rem;
+        }
+    </style>
 </head>
 <body>
 
-<h2>Hello, Woof Woof</h2>
+<h2 class="myh2">Hello, Woof Woof</h2>
 <h3>About Me</h3>
 <img src="public/images/dog-img.jpg" alt="dog picture" , width="200">
 <p>I like eating, playing, licking people, and sometimes pissing on the carpet. I am a professional barker, I bark at
@@ -16,7 +39,8 @@
     <li>Cuddling</li>
     <li>Barking</li>
 </ol>
-<table border="1">
+<!-- css classes can be used in any html tag ig-->
+<table border="1" , class="myh2">
     <tr>
         <th>Skill</th>
         <th>Level</th>
